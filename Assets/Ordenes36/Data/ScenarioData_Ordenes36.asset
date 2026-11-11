@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3573fcc94e84e41b587bdf8c4e1dc7, type: 3}
+  m_Name: ScenarioData_Ordenes36
+  m_EditorClassIdentifier: Assembly-CSharp::AndesSim.Ordenes36.ScenarioData
+  numeroEscenario: 4
+  titulo: "Las 36 \xF3rdenes"
+  fecha: 4 y 5 feb 2016
+  historia: "Las 36 \xF3rdenes viajan al Banco Corresponsal Internacional. Treinta
+    y cinco son rechazadas por formato y reenviadas corregidas esa noche (una nunca
+    se reenv\xEDa). Al final se bloquean 30 y pasan 5: cuatro a Manila y una, por
+    20 millones, a la \xABFandation\xBB."
+  totalOrdenes: 36
+  montoTotalUSD: 951000000
+  limiteMontoMaximoUSD: 5000000
+  horaInicioLaboral: 8
+  horaFinLaboral: 18
+  ordenes:
+  - id: ORD-01
+    numero: 1
+    referenciaSwift: BAND160204001
+    fechaHora: "04 feb 2016 \xB7 20:58"
+    hora24: 20
+    montoUSD: 30000000
+    beneficiario: R. VILLANUEVA
+    beneficiarioRealEsperado: PROVEEDOR REGISTRADO BANCO ANDINO
+    cuentaBeneficiario: 1180-0042-7731
+    destino: "Agencia Las Palmeras \xB7 Calle Jupiter"
+    pais: Makati, Manila (Filipinas)
+    beneficiarioEnListaBlanca: 0
+    tieneDobleFirma: 0
+    tieneTypo: 0
+    estadoReal: 1
+    notaEstado: "ATAQUE 2016: Liberada y pagada en Manila.\nSin doble firma ni l\xEDmite
+      nocturno."
+    explicacionAtaque: 
+    vulnerabilidad1: 
+    vulnerabilidad2: 
+    vulnerabilidad3: 
+    explicacionDefensa: 
